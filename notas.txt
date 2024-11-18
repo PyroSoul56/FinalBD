@@ -1,0 +1,4 @@
+
+
+- Mortal arms referencia directamente al comic ya que al ser coleccionables especiales no deberian estar repetidos entre comics.
+
