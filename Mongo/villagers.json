@@ -1,0 +1,50 @@
+[
+  {
+    "id_villager": "VIL-001",
+    "name": "John Doe",
+    "description": "Just a regular guy",
+    "availability": "available"
+  },
+  {
+    "id_villager": "VIL-002",
+    "name": "Jane Doe",
+    "description": "Just a regular girl",
+    "availability": "available"
+  },
+  {
+    "id_villager": "VIL-003",
+    "name": "Joe Smith",
+    "description": "Just a regular guy",
+    "availability": "available"
+  },
+  {
+    "id_villager": "VIL-004",
+    "name": "Jill Smith",
+    "description": "Just a regular girl",
+    "availability": "available"
+  },
+  {
+    "id_villager": "VIL-005",
+    "name": "Jack Black",
+    "description": "Just a regular guy",
+    "availability": "available"
+  },
+  {
+    "id_villager": "VIL-006",
+    "name": "Jill Black",
+    "description": "Just a regular girl",
+    "availability": "available"
+  },
+  {
+    "id_villager": "VIL-007",
+    "name": "John White",
+    "description": "Just a regular guy",
+    "availability": "available"
+  },
+  {
+    "id_villager": "VIL-008",
+    "name": "Jane White",
+    "description": "Just a regular girl",
+    "availability": "available"
+  }
+]

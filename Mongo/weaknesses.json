@@ -1,0 +1,27 @@
+[
+  {
+    "id_weakness": "WEA-001",
+    "name": "Kryptonite",
+    "description": "On contact or close proximity to kryptonite, user loses all its powers"
+  },
+  {
+    "id_weakness": "WEA-002",
+    "name": "No money",
+    "description": "When poor, user becomes nearly useless"
+  },
+  {
+    "id_weakness": "WEA-003",
+    "name": "Emotional manipulation",
+    "description": "Due to his past, user is easily manipulated by emotional means"
+  },
+  {
+    "id_weakness": "WEA-004",
+    "name": "Lack of sleep",
+    "description": "User needs to sleep at least 8 hours a day, or they lose their powers"
+  },
+  {
+    "id_weakness": "WEA-005",
+    "name": "Literally fkn Yellow",
+    "description": "Users powers can't affect nor harm anything with the color yellow"
+  }
+]

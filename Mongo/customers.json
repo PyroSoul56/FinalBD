@@ -1,0 +1,32 @@
+[
+  {
+    "id_customer": "CUS-001",
+    "name": "Lara Kent",
+    "birthday": "1990-05-14",
+    "email": "lara.kent@email.com"
+  },
+  {
+    "id_customer": "CUS-002",
+    "name": "Bruce Lane",
+    "birthday": "1985-11-20",
+    "email": "bruce.lane@email.com"
+  },
+  {
+    "id_customer": "CUS-004",
+    "name": "Peter Stone",
+    "birthday": "1988-07-01",
+    "email": "peter.stone@email.com"
+  },
+  {
+    "id_customer": "CUS-008",
+    "name": "Janet Carter",
+    "birthday": "1997-08-19",
+    "email": "janet.carter@email.com"
+  },
+  {
+    "id_customer": "CUS-009",
+    "name": "Tony Sparks",
+    "birthday": "1991-03-03",
+    "email": "tony.sparks@email.com"
+  }
+]

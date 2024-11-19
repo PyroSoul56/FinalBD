@@ -1,0 +1,19 @@
+[
+  { "id_character": "CH-001", "name": "Superman", "alignment": "hero" },
+  { "id_character": "CH-002", "name": "Batman", "alignment": "hero" },
+  { "id_character": "CH-003", "name": "Iron Man", "alignment": "hero" },
+  { "id_character": "CH-004", "name": "Green lantern", "alignment": "hero" },
+  { "id_character": "CH-005", "name": "The traveler", "alignment": "hero" },
+  { "id_character": "CH-006", "name": "The unseen", "alignment": "hero" },
+  { "id_character": "CH-007", "name": "Nobody man", "alignment": "hero" },
+  { "id_character": "CH-008", "name": "Stronk", "alignment": "hero" },
+  { "id_character": "CH-009", "name": "Big brain", "alignment": "hero" },
+  { "id_character": "CH-010", "name": "Copycat", "alignment": "hero" },
+  { "id_character": "CH-011", "name": "The all seeing", "alignment": "hero" },
+  { "id_character": "CH-013", "name": "mover", "alignment": "hero" },
+  { "id_character": "CH-014", "name": "IQ wings", "alignment": "hero" },
+  { "id_character": "CH-015", "name": "Watchman", "alignment": "hero" },
+  { "id_character": "CH-016", "name": "Flyman", "alignment": "hero" },
+  { "id_character": "CH-017", "name": "Twin a", "alignment": "hero" },
+  { "id_character": "CH-018", "name": "Twin b", "alignment": "hero" }
+]

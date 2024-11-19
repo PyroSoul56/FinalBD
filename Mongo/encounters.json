@@ -1,0 +1,38 @@
+[
+  {
+    "id_encounter": "ENC-001",
+    "id_heroGroup": "GR-001",
+    "id_villainGroup": "GR-007",
+    "result": "hero"
+  },
+  {
+    "id_encounter": "ENC-002",
+    "id_heroGroup": "GR-002",
+    "id_villainGroup": "GR-008",
+    "result": "villain"
+  },
+  {
+    "id_encounter": "ENC-003",
+    "id_heroGroup": "GR-003",
+    "id_villainGroup": "GR-010",
+    "result": "hero"
+  },
+  {
+    "id_encounter": "ENC-004",
+    "id_heroGroup": "GR-004",
+    "id_villainGroup": "GR-010",
+    "result": "hero"
+  },
+  {
+    "id_encounter": "ENC-005",
+    "id_heroGroup": "GR-005",
+    "id_villainGroup": "GR-010",
+    "result": "hero"
+  },
+  {
+    "id_encounter": "ENC-006",
+    "id_heroGroup": "GR-006",
+    "id_villainGroup": "GR-010",
+    "result": "hero"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id_power": "POW-001",
+    "name": "Flight",
+    "description": "Allows the user to fly"
+  },
+  {
+    "id_power": "POW-002",
+    "name": "Heat vision",
+    "description": "Allows the user to shoot concentrated heat beams out of his eyes"
+  },
+  {
+    "id_power": "POW-003",
+    "name": "Super strength",
+    "description": "Allows the user to lift heavy objects"
+  },
+  {
+    "id_power": "POW-004",
+    "name": "Green Lantern Ring",
+    "description": "Allows the user control energy with the ring, to create weapons or energy blasts"
+  },
+  {
+    "id_power": "POW-005",
+    "name": "Money",
+    "description": "A LOT of money, like, a lot"
+  },
+  {
+    "id_power": "POW-006",
+    "name": "Unstable Invisibility",
+    "description": "User is invisible, but only when they sneeze"
+  },
+  {
+    "id_power": "POW-007",
+    "name": "Partial Teleportation",
+    "description": "User can teleport to any location they can see, but their clothes don't teleport with them"
+  },
+  {
+    "id_power": "POW-008",
+    "name": "Laxant Power Copy",
+    "description": "User can copy any power they see for 2 days, but they get sudden onset violent diarrhea for a week"
+  },
+  {
+    "id_power": "POW-009",
+    "name": "Blind Mind Reading",
+    "description": "Ability to read people's minds, but only in braille"
+  },
+  {
+    "id_power": "POW-010",
+    "name": "Time Stop",
+    "description": "User can stop time for up to one hour, but only their mind works, they can't move"
+  },
+  {
+    "id_power": "POW-011",
+    "name": "Super Intelligence",
+    "description": "User has insane levels of intelligence"
+  },
+  {
+    "id_power": "POW-012",
+    "name": "Unstable Flight",
+    "description": "User can fly only on Tuesdays, for 3 minutes after drinking a Red Bull"
+  },
+  {
+    "id_power": "POW-013",
+    "name": "Partial flight",
+    "description": "User can fly for 3 seconds with a 3 second cooldown"
+  },
+  {
+    "id_power": "POW-014",
+    "name": "Total Invisibility",
+    "description": "User can become invisible, but becomes blind whenever they do"
+  },
+  {
+    "id_power": "POW-015",
+    "name": "Super Speed",
+    "description": "User can move at incredible speeds, but only when they are naked"
+  }
+]

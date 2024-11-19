@@ -1,0 +1,30 @@
+[
+  {
+    "id_mortalArm": "MOR-001",
+    "id_comic": "COM-001",
+    "name": "Superman's cape",
+    "description": "Superman's cape is a symbol of hope and justice. It is indestructible and can be used as a shield or a weapon.",
+    "availability": "available"
+  },
+  {
+    "id_mortalArm": "MOR-002",
+    "id_comic": "COM-002",
+    "name": "Captain America's shield",
+    "description": "Captain America's shield is made of vibranium, a rare metal that can absorb and redirect energy. It is virtually indestructible and can be used as a weapon or a defensive tool.",
+    "availability": "available"
+  },
+  {
+    "id_mortalArm": "MOR-003",
+    "id_comic": "COM-003",
+    "name": "Green Lantern's ring",
+    "description": "The Green Lantern's ring is a powerful weapon that can create anything the user can imagine. It is fueled by the user's willpower and can be used to create constructs of any shape or size.",
+    "availability": "available"
+  },
+  {
+    "id_mortalArm": "MOR-004",
+    "id_comic": "COM-004",
+    "name": "Thor's hammer",
+    "description": "Thor's hammer is a powerful weapon that can only be wielded by those who are worthy. It is enchanted with powerful magic and can only be lifted by those who are pure of heart.",
+    "availability": "available"
+  }
+]

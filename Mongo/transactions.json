@@ -1,0 +1,65 @@
+[
+  {
+    "id_transaction": "TRX-001",
+    "id_customer": "CUS-001",
+    "id_comic": "COM-001",
+    "quantity": 1,
+    "date": "2021-10-01"
+  },
+  {
+    "id_transaction": "TRX-002",
+    "id_customer": "CUS-002",
+    "id_comic": "COM-001",
+    "quantity": 2,
+    "date": "2021-10-01"
+  },
+  {
+    "id_transaction": "TRX-003",
+    "id_customer": "CUS-002",
+    "id_comic": "COM-002",
+    "quantity": 1,
+    "date": "2021-10-01"
+  },
+  {
+    "id_transaction": "TRX-004",
+    "id_customer": "CUS-004",
+    "id_comic": "COM-003",
+    "quantity": 2,
+    "date": "2021-10-01"
+  },
+  {
+    "id_transaction": "TRX-005",
+    "id_customer": "CUS-008",
+    "id_comic": "COM-004",
+    "quantity": 1,
+    "date": "2021-10-01"
+  },
+  {
+    "id_transaction": "TRX-006",
+    "id_customer": "CUS-009",
+    "id_comic": "COM-001",
+    "quantity": 3,
+    "date": "2021-10-01"
+  },
+  {
+    "id_transaction": "TRX-007",
+    "id_customer": "CUS-009",
+    "id_comic": "COM-005",
+    "quantity": 2,
+    "date": "2021-10-01"
+  },
+  {
+    "id_transaction": "TRX-008",
+    "id_customer": "CUS-009",
+    "id_comic": "COM-003",
+    "quantity": 1,
+    "date": "2021-10-01"
+  },
+  {
+    "id_transaction": "TRX-009",
+    "id_customer": "CUS-002",
+    "id_comic": "COM-006",
+    "quantity": 4,
+    "date": "2021-10-01"
+  }
+]

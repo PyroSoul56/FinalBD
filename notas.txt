@@ -8,3 +8,5 @@
 
 - cambiada primera query a menos de 70 en vez de menos de 20 (hice los comics un tantito mas caros)
 
+- para actualizar la vista materializada solo pude encontrar con el Pg_Cron
+

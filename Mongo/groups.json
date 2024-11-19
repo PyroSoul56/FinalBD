@@ -1,0 +1,56 @@
+[
+  {
+    "id_group": "GR-001",
+    "name": "Avengers",
+    "description": "",
+    "type": "hero"
+  },
+  {
+    "id_group": "GR-002",
+    "name": "Justice league",
+    "description": "",
+    "type": "hero"
+  },
+  {
+    "id_group": "GR-003",
+    "name": "Green lantern corps",
+    "description": "",
+    "type": "hero"
+  },
+  {
+    "id_group": "GR-004",
+    "name": "The unknown",
+    "description": "",
+    "type": "hero"
+  },
+  {
+    "id_group": "GR-005",
+    "name": "Watchers",
+    "description": "",
+    "type": "hero"
+  },
+  {
+    "id_group": "GR-006",
+    "name": "The muscle twins",
+    "description": "",
+    "type": "hero"
+  },
+  {
+    "id_group": "GR-007",
+    "name": "Brawny Brains",
+    "description": "",
+    "type": "villain"
+  },
+  {
+    "id_group": "GR-008",
+    "name": "BrailleCopy",
+    "description": "",
+    "type": "villain"
+  },
+  {
+    "id_group": "GR-010",
+    "name": "Bad Doodz",
+    "description": "",
+    "type": "villain"
+  }
+]
