@@ -40,28 +40,28 @@ VALUES
     ('GR-007', 'Brawny Brains', '', 'villain'),
     ('GR-008', 'BrailleCopy', '', 'villain'),
     ('GR-010', 'Bad Doodz', '', 'villain');
-    
+
 --PERSONAJES--
 
-INSERT INTO characters (id_character, name)
+INSERT INTO characters (id_character, name, alignment)
 VALUES
-    ('CH-001', 'Superman'),
-    ('CH-002', 'Batman'),
-    ('CH-003', 'Iron Man'),
-    ('CH-004', 'Green lantern'),
-    ('CH-005', 'The traveler'),
-    ('CH-006', 'The unseen'),
-    ('CH-007', 'Nobody man'),
-    ('CH-008', 'Stronk'),
-    ('CH-009', 'Big brain'),
-    ('CH-010', 'Copycat'),
-    ('CH-011', 'The all seeing'),
-    ('CH-013', 'mover'),
-    ('CH-014', 'IQ wings'),
-    ('CH-015', 'Watchman'),
-    ('CH-016', 'Flyman'),
-    ('CH-017', 'Twin a'),
-    ('CH-018', 'Twin b');
+    ('CH-001', 'Superman', 'hero'),
+    ('CH-002', 'Batman' , 'hero'),
+    ('CH-003', 'Iron Man' , 'hero'),
+    ('CH-004', 'Green lantern' , 'hero'),
+    ('CH-005', 'The traveler' , 'hero'),
+    ('CH-006', 'The unseen' , 'hero'),
+    ('CH-007', 'Nobody man' , 'hero'),
+    ('CH-008', 'Stronk' , 'hero'),
+    ('CH-009', 'Big brain' , 'hero'),
+    ('CH-010', 'Copycat' , 'hero'),
+    ('CH-011', 'The all seeing' , 'hero'),
+    ('CH-013', 'mover' , 'hero'),
+    ('CH-014', 'IQ wings' , 'hero'),
+    ('CH-015', 'Watchman' , 'hero'),
+    ('CH-016', 'Flyman' , 'hero'),
+    ('CH-017', 'Twin a' , 'hero'),
+    ('CH-018', 'Twin b' , 'hero');
 
 
 INSERT INTO "groupsXcharacters" (id_character, id_group)
@@ -78,14 +78,13 @@ VALUES
     ('CH-015', 'GR-005'),
     ('CH-016', 'GR-005'),
     ('CH-017', 'GR-006'),
-    ('CH-018', 'GR-006');
-    ('CH-008', 'GR-007');
-    ('CH-009', 'GR-007');
-    ('CH-011', 'GR-008');
-    ('CH-010', 'GR-008');
-    ('CH-013', 'GR-010');
+    ('CH-018', 'GR-006'),
+    ('CH-008', 'GR-007'),
+    ('CH-009', 'GR-007'),
+    ('CH-011', 'GR-008'),
+    ('CH-010', 'GR-008'),
+    ('CH-013', 'GR-010'),
     ('CH-014', 'GR-010');
-
 
 
 -- powersXcharacter
@@ -140,7 +139,7 @@ INSERT INTO comics (id_comic, title, description, price, category, "id_encounter
 VALUES
     -- Superman en calzoncillos con Batman asustado
     ('COM-001', 'Superman en calzoncillos con Batman asustado', 'In this unexpected and hilariously awkward adventure, the mighty Superman faces his greatest challenge yet: a laundry mishap! After a Kryptonian washing machine malfunction that the Brawny Brains evil team sabotaged, Superman finds himself forced to save the day wearing only his bright red underpants. Meanwhile, Batman, the stoic Dark Knight, is anything but stoic as he finds himself drawn into a series of embarrassing situations trying to help his friend "cover up." Together, they must face off against an evil villain who’s taking full advantage of Superman’s wardrobe predicament. As Gotham’s citizens catch glimpses of Superman’s unorthodox look, Batman is left to grapple with whether his reputation will ever recover. Will they save the day? And will Superman ever find pants again?', 150, 'hero', 'ENC-001'),
-    
+
     -- The avengers vs the BrailleCopy (the villain group above)
     ('COM-002', 'The avengers vs the BrailleCopy', 'The Avengers are back in action, and this time they’re facing off against the BrailleCopy, a villainous group that’s been causing chaos across the city. With their powers combined, the Avengers must work together to take down the BrailleCopy and save the day. In this comic, you will be experiencing the sotry from the villains side!', 60, 'villain', 'ENC-002'),
 
@@ -220,4 +219,3 @@ VALUES
     ('MOR-002', 'COM-002', 'Captain America''s shield', 'Captain America''s shield is made of vibranium, a rare metal that can absorb and redirect energy. It is virtually indestructible and can be used as a weapon or a defensive tool.', 'available'),
     ('MOR-003', 'COM-003', 'Green Lantern''s ring', 'The Green Lantern''s ring is a powerful weapon that can create anything the user can imagine. It is fueled by the user''s willpower and can be used to create constructs of any shape or size.', 'available'),
     ('MOR-004', 'COM-004', 'Thor''s hammer', 'Thor''s hammer is a powerful weapon that can only be wielded by those who are worthy. It is enchanted with powerful magic and can only be lifted by those who are pure of heart.', 'available');
-    
