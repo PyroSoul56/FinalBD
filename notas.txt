@@ -2,3 +2,8 @@
 
 - Mortal arms referencia directamente al comic ya que al ser coleccionables especiales no deberian estar repetidos entre comics.
 
+- No todos los personajes tienen una debilidad especial, ya sea porque sus poderes ya tienen limitaciones o porque no tienen nada que tenga un efecto extremo sobre sus poderes o que les haga mas daño.
+
+- linerna verde esta en 3 grupos para facilidad de las queries
+
+cambiado a

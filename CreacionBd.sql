@@ -1,3 +1,11 @@
+CREATE TABLE "groupsXcharacters"(
+    "id_character" VARCHAR(255) NOT NULL,
+    "id_group" VARCHAR(255) NOT NULL
+);
+CREATE INDEX "groupsxcharacters_id_character_index" ON
+    "groupsXcharacters"("id_character");
+CREATE INDEX "groupsxcharacters_id_group_index" ON
+    "groupsXcharacters"("id_group");
 CREATE TABLE "comics"(
     "price" BIGINT NOT NULL,
     "description" VARCHAR(1500) NOT NULL,
@@ -41,13 +49,10 @@ ALTER TABLE
     "customers" ADD PRIMARY KEY("id_customer");
 CREATE TABLE "characters"(
     "id_character" VARCHAR(255) NOT NULL,
-    "name" VARCHAR(255) NOT NULL,
-    "id_group" VARCHAR(255) NOT NULL
+    "name" VARCHAR(255) NOT NULL
 );
 ALTER TABLE
     "characters" ADD PRIMARY KEY("id_character");
-CREATE INDEX "characters_id_group_index" ON
-    "characters"("id_group");
 CREATE TABLE "villagerXcomic"(
     "id_villager" VARCHAR(255) NOT NULL,
     "id_comic" VARCHAR(255) NOT NULL
@@ -120,6 +125,8 @@ CREATE TABLE "villagers"(
 ALTER TABLE
     "villagers" ADD PRIMARY KEY("id_villager");
 ALTER TABLE
+    "groupsXcharacters" ADD CONSTRAINT "groupsxcharacters_id_group_foreign" FOREIGN KEY("id_group") REFERENCES "groups"("id_group");
+ALTER TABLE
     "weaknessXcharacter" ADD CONSTRAINT "weaknessxcharacter_id_weakness_foreign" FOREIGN KEY("id_weakness") REFERENCES "weaknesses"("id_weakness");
 ALTER TABLE
     "transactions" ADD CONSTRAINT "transactions_id_comic_foreign" FOREIGN KEY("id_comic") REFERENCES "comics"("id_comic");
@@ -128,11 +135,11 @@ ALTER TABLE
 ALTER TABLE
     "weaknessXcharacter" ADD CONSTRAINT "weaknessxcharacter_id_character_foreign" FOREIGN KEY("id_character") REFERENCES "characters"("id_character");
 ALTER TABLE
+    "groupsXcharacters" ADD CONSTRAINT "groupsxcharacters_id_character_foreign" FOREIGN KEY("id_character") REFERENCES "characters"("id_character");
+ALTER TABLE
     "encounters" ADD CONSTRAINT "encounters_id_villaingroup_foreign" FOREIGN KEY("id_villainGroup") REFERENCES "groups"("id_group");
 ALTER TABLE
     "transactions" ADD CONSTRAINT "transactions_id_customer_foreign" FOREIGN KEY("id_customer") REFERENCES "customers"("id_customer");
-ALTER TABLE
-    "characters" ADD CONSTRAINT "characters_id_group_foreign" FOREIGN KEY("id_group") REFERENCES "groups"("id_group");
 ALTER TABLE
     "comics" ADD CONSTRAINT "comics_id_encounter_foreign" FOREIGN KEY("id_encounter") REFERENCES "encounters"("id_encounter");
 ALTER TABLE
