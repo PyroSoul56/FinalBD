@@ -1,3 +1,9 @@
+CREATE TABLE SpecialOffers (
+    "id_offer" SERIAL PRIMARY KEY,
+    "buyer_name" VARCHAR(255) NOT NULL,
+    "buyer_birthday" DATE NOT NULL,
+    "purchase_date" DATE NOT NULL DEFAULT CURRENT_DATE
+);
 CREATE TABLE "groupsXcharacters"(
     "id_character" VARCHAR(255) NOT NULL,
     "id_group" VARCHAR(255) NOT NULL
