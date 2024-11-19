@@ -48,3 +48,23 @@ WHERE g1.name ilike '%Justice League%' AND g2.name ilike '%Avengers%';
 SELECT c.title, mA.name, mA.description, e.result as winner FROM comics c
 INNER JOIN public.encounters e on c.id_encounter = e.id_encounter
 INNER JOIN public."mortalArms" mA on c.id_comic = mA.id_comic;
+
+--View
+CREATE VIEW Popular_Comics AS
+SELECT c.title AS comic_name, SUM(t.quantity) AS purchase_count
+FROM comics c
+JOIN transactions t ON c.id_comic = t.id_comic
+GROUP BY c.title
+HAVING SUM(t.quantity) > 50;
+
+--Materialized View
+CREATE MATERIALIZED VIEW Top_Customers
+AS SELECT c.name, (SUM(t.quantity)) as totalComics, SUM(c2.price*t.quantity) FROM customers c
+INNER JOIN transactions t on c.id_customer = t.id_customer
+INNER JOIN comics c2 on t.id_comic = c2.id_comic
+group by c.name
+HAVING SUM(t.quantity) > 10;
+-- Para actualizar diariamente se necesita Pg_Cron
+SELECT cron.schedule('0 0 * * *', $$ REFRESH MATERIALIZED VIEW Top_Customers $$);
+
+
