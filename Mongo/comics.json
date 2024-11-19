@@ -5,7 +5,8 @@
     "description": "In this unexpected and hilariously awkward adventure, the mighty Superman faces his greatest challenge yet: a laundry mishap! After a Kryptonian washing machine malfunction that the Brawny Brains evil team sabotaged, Superman finds himself forced to save the day wearing only his bright red underpants. Meanwhile, Batman, the stoic Dark Knight, is anything but stoic as he finds himself drawn into a series of embarrassing situations trying to help his friend. Together, they must face off against an evil villain who’s taking full advantage of Superman’s wardrobe predicament. As Gotham’s citizens catch glimpses of Superman’s unorthodox look, Batman is left to grapple with whether his reputation will ever recover. Will they save the day? And will Superman ever find pants again?",
     "price": 150,
     "category": "hero",
-    "id_encounter": "ENC-001"
+    "id_encounter": "ENC-001",
+    "villagers": []
   },
   {
     "id_comic": "COM-002",
@@ -13,7 +14,8 @@
     "description": "The Avengers are back in action, and this time they’re facing off against the BrailleCopy, a villainous group that’s been causing chaos across the city. With their powers combined, the Avengers must work together to take down the BrailleCopy and save the day. In this comic, you will be experiencing the sotry from the villains side!",
     "price": 60,
     "category": "villain",
-    "id_encounter": "ENC-002"
+    "id_encounter": "ENC-002",
+    "villagers": []
   },
   {
     "id_comic": "COM-003",
@@ -21,7 +23,8 @@
     "description": "The Green Lantern Corps are the protectors of the universe, using their power rings to create anything they can imagine. But when the Bad Doodz, a group of villainous thugs, start causing trouble on Earth, the Green Lantern Corps must step in to stop them.",
     "price": 70,
     "category": "hero",
-    "id_encounter": "ENC-003"
+    "id_encounter": "ENC-003",
+    "villagers": []
   },
   {
     "id_comic": "COM-004",
@@ -29,7 +32,8 @@
     "description": "The Unknown are a group of mysterious heroes who have been fighting crime in the city for years. But when the Bad Doodz, a group of villainous thugs, start causing trouble, the Unknown must step up to the plate and take them down. With their unique powers and abilities, the Unknown are more than a match for the Bad Doodz.",
     "price": 70,
     "category": "hero",
-    "id_encounter": "ENC-004"
+    "id_encounter": "ENC-004",
+    "villagers": []
   },
   {
     "id_comic": "COM-005",
@@ -37,7 +41,8 @@
     "description": "The Watchers are a group of heroes who have been keeping an eye on the city for years. But when the Bad Doodz, a group of villainous thugs, start causing trouble, the Watchers must step in to stop them. With their powers of observation and insight, the Watchers are able to outsmart the Bad Doodz and bring them to justice.",
     "price": 70,
     "category": "hero",
-    "id_encounter": "ENC-005"
+    "id_encounter": "ENC-005",
+    "villagers": []
   },
   {
     "id_comic": "COM-006",
@@ -45,6 +50,8 @@
     "description": "The Muscle Twins are a pair of super-powered siblings who have been fighting crime in the city for years. But when the Bad Doodz, a group of villainous thugs, start causing trouble, the Muscle Twins must step in to stop them. With their incredible strength and agility, the Muscle Twins are able to take down the Bad Doodz and save the day.",
     "price": 70,
     "category": "hero",
-    "id_encounter": "ENC-006"
+    "id_encounter": "ENC-006",
+    "villagers": []
   }
+
 ]

@@ -1,19 +1,138 @@
 [
-  { "id_character": "CH-001", "name": "Superman", "alignment": "hero" },
-  { "id_character": "CH-002", "name": "Batman", "alignment": "hero" },
-  { "id_character": "CH-003", "name": "Iron Man", "alignment": "hero" },
-  { "id_character": "CH-004", "name": "Green lantern", "alignment": "hero" },
-  { "id_character": "CH-005", "name": "The traveler", "alignment": "hero" },
-  { "id_character": "CH-006", "name": "The unseen", "alignment": "hero" },
-  { "id_character": "CH-007", "name": "Nobody man", "alignment": "hero" },
-  { "id_character": "CH-008", "name": "Stronk", "alignment": "hero" },
-  { "id_character": "CH-009", "name": "Big brain", "alignment": "hero" },
-  { "id_character": "CH-010", "name": "Copycat", "alignment": "hero" },
-  { "id_character": "CH-011", "name": "The all seeing", "alignment": "hero" },
-  { "id_character": "CH-013", "name": "mover", "alignment": "hero" },
-  { "id_character": "CH-014", "name": "IQ wings", "alignment": "hero" },
-  { "id_character": "CH-015", "name": "Watchman", "alignment": "hero" },
-  { "id_character": "CH-016", "name": "Flyman", "alignment": "hero" },
-  { "id_character": "CH-017", "name": "Twin a", "alignment": "hero" },
-  { "id_character": "CH-018", "name": "Twin b", "alignment": "hero" }
+  {
+    "id_character": "CH-001",
+    "name": "Superman",
+    "alignment": "hero",
+    "id_groups": ["GR-001"],
+    "id_powers": ["GR-001","GR-002","GR-003"],
+    "id_weaknesses": ["WEX-001"]
+  },
+  {
+    "id_character": "CH-002",
+    "name": "Batman",
+    "alignment": "hero",
+    "id_groups": ["GR-001"],
+    "id_powers": ["POW-005"],
+    "id_weaknesses": ["WEX-002","WEX-003"]
+  },
+  {
+    "id_character": "CH-003",
+    "name": "Iron Man",
+    "alignment": "hero",
+    "id_groups": ["GR-002"],
+    "id_powers": ["POW-005", "POW-011"],
+    "id_weaknesses": ["WEX-002"]
+  },
+  {
+    "id_character": "CH-004",
+    "name": "Green lantern",
+    "alignment": "hero",
+    "id_groups": ["GR-001", "GR-002", "GR-004"],
+    "id_powers": ["POW-004","POW-001"],
+    "id_weaknesses": ["WEX-005"]
+  },
+  {
+    "id_character": "CH-005",
+    "name": "The traveler",
+    "alignment": "hero",
+    "id_groups": ["GR-004"],
+    "id_powers": ["POW-007"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-006",
+    "name": "The unseen",
+    "alignment": "hero",
+    "id_groups": ["GR-004"],
+    "id_powers": ["POW-006"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-007",
+    "name": "Nobody man",
+    "alignment": "hero",
+    "id_groups": ["GR-004"],
+    "id_powers": ["POW-014"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-008",
+    "name": "Stronk",
+    "alignment": "hero",
+    "id_groups": ["GR-007"],
+    "id_powers": ["POW-003"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-009",
+    "name": "Big brain",
+    "alignment": "hero",
+    "id_groups": ["GR-007"],
+    "id_powers": ["POW-011"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-010",
+    "name": "Copycat",
+    "alignment": "hero",
+    "id_groups": ["GR-008"],
+    "id_powers": ["WEX-008"],
+    "id_weaknesses": ["WEX-004"]
+  },
+  {
+    "id_character": "CH-011",
+    "name": "The all seeing",
+    "alignment": "hero",
+    "id_groups": ["GR-008"],
+    "id_powers": ["POW-009"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-013",
+    "name": "mover",
+    "alignment": "hero",
+    "id_groups": ["GR-010"],
+    "id_powers": ["POW-013"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-014",
+    "name": "IQ wings",
+    "alignment": "hero",
+    "id_groups": ["GR-010"],
+    "id_powers": ["POW-001","POW-011"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-015",
+    "name": "Watchman",
+    "alignment": "hero",
+    "id_groups": ["GR-005"],
+    "id_powers": ["POW-010"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-016",
+    "name": "Flyman",
+    "alignment": "hero",
+    "id_groups": ["GR-005"],
+    "id_powers": ["POW-012"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-017",
+    "name": "Twin a",
+    "alignment": "hero",
+    "id_groups": ["GR-006"],
+    "id_powers": ["POW-003"],
+    "id_weaknesses": []
+  },
+  {
+    "id_character": "CH-018",
+    "name": "Twin b",
+    "alignment": "hero",
+    "id_groups": ["GR-006"],
+    "id_powers": ["POW-003"],
+    "id_weaknesses": []
+  }
 ]
