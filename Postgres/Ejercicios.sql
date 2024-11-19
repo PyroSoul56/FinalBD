@@ -67,4 +67,33 @@ HAVING SUM(t.quantity) > 10;
 -- Para actualizar diariamente se necesita Pg_Cron
 SELECT cron.schedule('0 0 * * *', $$ REFRESH MATERIALIZED VIEW Top_Customers $$);
 
+--TRIGGER:
+
+CREATE OR REPLACE FUNCTION add_to_special_offers()
+RETURNS TRIGGER AS $$
+DECLARE
+    buyer_name VARCHAR(255);
+    buyer_birthday DATE;
+BEGIN
+    -- Check if the purchased comic matches the target comic
+    IF NEW.id_comic = 'COM-001' THEN
+        -- Fetch customer details
+        SELECT name, birthday INTO buyer_name, buyer_birthday
+        FROM customers
+        WHERE id_customer = NEW.id_customer;
+
+        -- Insert customer details into SpecialOffers
+        INSERT INTO SpecialOffers (buyer_name, buyer_birthday)
+        VALUES (buyer_name, buyer_birthday);
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trigger_special_offer
+AFTER INSERT ON transactions
+FOR EACH ROW
+EXECUTE FUNCTION add_to_special_offers();
+
 
